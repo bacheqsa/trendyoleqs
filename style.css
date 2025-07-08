@@ -1,0 +1,90 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: rgb(208, 208, 208);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 800px;
+    border-radius: 10px;
+    
+}
+.inputer{
+    height: 40px;
+    width: 300px;
+}
+
+.main{
+    display: flex;
+    margin-left: 50px;
+}
+
+.eye {
+cursor: pointer;
+user-select: none;
+}
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: -40px;
+    margin-top: 12px;
+}
+
+.pipexs{
+    font-size:  12px;
+}
+
+.inputers{
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+   
+
+}
+.check{
+    accent-color: orangered;
+}
+.checked{
+    accent-color: orangered;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.main1{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(234, 234, 234);
+    margin-top: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.pipo{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+}
+.become{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
